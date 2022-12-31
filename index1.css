@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background: #ffffee;
+
+  line-height: 1.5;
+
+}
+
+
+
+th.bigger {
+  font-size: calc(18px + 1.2vw);
+}
+
+table {
+  width: 70%;
+}
+
+
+
+
+a:link, a:visited {
+  background-color: #ffffee;
+  color: #006633;
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link {
+  color: #0000ff;
+}
+
+/* CSS link color (red) */
+a:hover {
+  color: #0000ff;
+}
+
+/* CSS link hover (green) */
+table.center {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#table1 {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.wrapper {
+  font-size: 1em;
+}
+
+.px {
+  width: 200px;
+}
+
+
+
+
+.em {
+  width: 10em;
+}
+
+div.centre {
+  display: block-inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
+}
+
+.centerImage {
+  text-align: center;
+  display: block;
+}
+
+.logo {
+  max-width: 85%;
+}

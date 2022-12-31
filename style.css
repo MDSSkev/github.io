@@ -1,0 +1,281 @@
+body {
+  max-width: 80%;
+  background-color: #ffffee;
+  margin: auto;
+  font-family: Raleway;
+  padding: 0px;
+}
+
+a {
+  color: #067070;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+li>a {
+  color: #067070;
+  line-height: 2em;
+  text-decoration: none;
+  border: #067070 2px solid;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+a:hover {
+  background: #067070;
+  color: #ffffee;
+  transition: 0.3s;
+  padding: 0.3em 0.3em 0.3em 0;
+}
+
+h5 {
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+
+.contact {
+  color: red;
+  font-weight: 700;
+}
+
+.icontainer {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+  min-height: 100vh;
+}
+
+.gcontainer {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+  min-height: 100vh;
+}
+
+.ccontainer {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "nav main main"
+    "table table table"
+    "footer footer footer";
+  min-height: 100vh;
+}
+
+.acontainer {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "nav main main"
+    "footer footer footer";
+  min-height: 100vh;
+}
+
+.cocontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill), 2fr 8fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "nav main footer";
+  margin: auto;
+}
+
+
+.responsive {
+  width: 100%;
+  border-radius: 10px;
+}
+
+header {
+  grid-area: header;
+  background: url(view1.png) no-repeat;
+  background-size: cover;
+  padding: 0 20vw 0 20vw;
+  height: 14vw;
+  color: #067070;
+  font-size: 1.75em;
+  font-weight: 600;
+  margin: auto auto 20px auto;
+  box-shadow: inset 0 0 40px #ffffee;
+  border-radius: 8px;
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+  padding-left: 2ch;
+  padding-right: 2ch;
+  line-height: 1.6;
+  font-size: 1.2em;
+
+
+}
+
+nav {
+  grid-area: nav;
+  font-size: 1.25em;
+  background-color: #ffffdd;
+  color: #067070;
+}
+
+ul {
+  list-style: none;
+  text-emphasis-style: none;
+}
+
+main {
+  grid-area: main;
+  font-weight: 550;
+  background-color: #ffffee;
+  color: #067070;
+  text-align: justify;
+  line-height: 1.5em;
+  box-shadow: inset 0 0 10px #067070;
+  border-radius: 8px;
+  padding-top: 20px;
+}
+
+aside {
+  grid-area: aside;
+  padding: 2rem;
+  color: #067070;
+  font-size: 1.75em;
+  background-color: #ffffdd;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #ffffdd;
+  color: #067070;
+}
+
+table {
+  grid-area: table;
+  width: 100%;
+  table-layout: auto;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #11a397;
+}
+
+th.bigger {
+  font-size: 1.25em;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #ffffdd;
+  z-index: 1;
+}
+
+th {
+  font-size: 1em;
+  color: #0c8d82;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.1em;
+}
+
+table>thead>tr>th> {
+  padding: 0.2em;
+}
+
+td {
+  border-style: solid;
+  text-align: center;
+  border-width: 0.1em;
+  line-height: 1.75;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #066d64;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffdd;
+}
+
+td a:hover {
+  color: #ffffee;
+  background-color: #067070;
+}
+
+#table {
+  grid-area: table;
+}
+
+@media (max-width: 1024px) {
+  .icontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1f;
+    grid-template-areas:
+      "header"
+      "nav"
+      "aside"
+      "main"
+      "footer";
+
+    font-size: 1em;
+  }
+
+  .ccontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "table"
+      "footer";
+    padding: 0;
+  }
+
+  .acontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "footer";
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  th.bigger {
+    font-size: 1em;
+  }
+
+  header main aside nav footer content {
+    padding: 0;
+  }
+
+  header {
+    height: 19vw;
+  }
+
+  nav {
+    font-size: 0.8em;
+  }
+
+  aside {
+    font-size: 1em;
+    font-weight: 300;
+  }
+}

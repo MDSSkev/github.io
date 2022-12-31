@@ -1,0 +1,29 @@
+ 
+#navbar ul li
+{
+display: inline;
+
+}
+
+
+
+#navbar a
+{
+
+padding:8px;
+color:yellow;
+border: 4px solid olive; 
+background: yellowgreen;
+border-style:outset;
+border-radius: 16px;
+text-decoration:none;
+
+
+}
+#navbar ul li a:hover, 
+#navbar a:active
+{
+border-style:inset;
+color: blue;
+background: gold;
+}

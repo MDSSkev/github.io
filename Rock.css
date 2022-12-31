@@ -1,0 +1,273 @@
+
+
+.container-fluid
+{ 
+    padding: 10%;
+	float: center;
+	max-width: 860px;
+	min-width: 90%;
+ }
+
+ #top
+{
+    
+	text-align: center;
+	 
+}
+
+#middle
+{
+    
+	/*
+    
+	text-align: center;
+	  */
+}
+
+#bottom
+{	
+	
+    /* shrink bottom's font size */
+    font-size: 18px;
+
+    /* surround with whitespace */
+    margin: 20px;
+
+    /* center contents */
+    text-align: center;
+}
+#footer {
+    
+		background:olive;
+		width: 90%;		
+		}*/
+
+body {background:linear-gradient(hsl (52,100%,50%),hsl (58,100%,50%));font-family:Times New Roman,sans-serif;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;letter-spacing:0em;}
+
+sup {font-size:0.7em; vertical-align: 0.3em;}
+sub {font-size:0.7em;}
+.tl {position: absolute; white-space: pre; unicode-bidi:bidi-override;}
+.tr {position: absolute; white-space: pre; unicode-bidi:bidi-override; text-align:right;}
+.tc {position: absolute; white-space: pre; unicode-bidi:bidi-override; text-align:center;}
+.tj {position: relative; unicode-bidi:bidi-override; text-align:justify;}
+.ap {position: absolute; border:none;}
+.tb {position: absolute; unicode-bidi:bidi-override;}
+.tu {unicode-bidi:bidi-override;margin-top:0px;margin-bottom:0px;}
+
+/* Text styles */
+.s15 {font-family:Times New Roman;font-size:20px;font-weight:normal;font-style:normal;text-decoration:none; margin: auto;color:red;letter-spacing:0.0em;}
+.s0 {font-family:Times New Roman;font-size:20px;font-weight:normal;font-style:normal;text-decoration:none; margin: auto;color:red;letter-spacing:0.0em;}
+.s1 {font-family:Times New Roman;font-size:22px;font-weight:normal;font-style:normal;text-decoration:none;color:olive;letter-spacing:0.0em;}
+.s2 {font-family:Times New Roman;font-size:18px;font-weight:bold;font-style:normal;text-decoration:none;color:olive;letter-spacing:0.0em;}
+.s3 {font-family:Times New Roman;font-size:18px;font-weight:normal;font-style:normal;text-decoration:none;color:olive;letter-spacing:0.0em;}
+.s4 {font-family:Times New Roman Black;font-size:20px;font-weight:normal;font-style:normal;text-decoration:none;color:olive;letter-spacing:0.0em;}
+.s5 {font-family:Times New Roman;font-size:10px;font-weight:normal;font-style:normal;text-decoration:none;color:olive;letter-spacing:0.0em;}
+.s6 {font-family:Times New Roman;font-size:20px;font-weight:normal;font-style:normal;text-decoration:none;color:red;letter-spacing:0.0em;}
+.s7 {font-family:Times New Roman;font-size:36px;font-weight:normal;font-style:italic;text-decoration:none;color:#000000;letter-spacing:0.0em;}
+.s8 {font-family:Times New Roman;font-size:33px;font-weight:bold;font-style:normal;text-decoration:none;color:red;letter-spacing:0.0em;}
+.s9 {font-family:Times New Roman;font-size:18px;font-weight:normal;font-style:normal;text-decoration:none; margin: auto;color:olive;letter-spacing:0.0em; }
+.s10 {font-family:Times New Roman;font-size:37px;font-weight:bold;font-style:normal;text-decoration:none;color:olive;letter-spacing:0.0em;margin:5%;}
+.s11 {font-family:Times New Roman;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;letter-spacing:0.0em;}
+.s12 {font-family:Times New Roman;font-size:18px;font-weight:normal;font-style:normal; text-decoration:none; color:olive;letter-spacing:0.0em;}
+.s13 {font-family:Times New Roman;font-size:20px;font-weight:normal;font-style:normal;text-decoration:none;color:##556b2f;letter-spacing:0.0em;}
+.s14 {font-family:Times New Roman;font-size:30px;font-weight:bold;font-style:normal;text-decoration:none;text-decoration:italic;color:olive;letter-spacing:0.0em;}
+		
+		.zebra_stripe tbody tr:nth-child(even) td, .zebra_stripe tbody tr.even td {
+    background:#FFFFFF;
+}
+.center {
+  padding-right: 10%;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+.odd {background: #808000;}
+
+.CSSTableGenerator 
+	{margin:0px;padding:0px;
+	max-width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #bfbf00;
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+	}
+.CSSTableGenerator table
+	{border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+	}
+
+.CSSTableGenerator tr:last-child td:last-child 
+	{-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	}
+.CSSTableGenerator table tr:first-child td:first-child
+	{-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+	}
+.CSSTableGenerator table tr:first-child td:last-child 
+	{-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	}
+.CSSTableGenerator tr:last-child td:first-child
+	{-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	}
+.CSSTableGenerator tr:hover td
+	{
+	
+	}
+.CSSTableGenerator tr:nth-child(odd)
+	{ background-color:#ffffaa; 
+	}
+.CSSTableGenerator tr:nth-child(even)    
+	{ background-color:#ffffff; 
+	}
+.CSSTableGenerator td
+	{
+	Vertical-align:middle;
+	border:1px solid #bfbf00;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:8px;
+	font-size:18px;
+	font-family:Times New Roman;
+	font-weight:normal;
+	color:olive;
+	}
+	
+	.CSSTableGenerator th
+	{
+	Vertical-align:middle;
+	border:1px solid #bfbf00;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:8px;
+	font-size:25px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-style:italic;
+	color:olive;
+	}
+.CSSTableGenerator tr:last-child td
+	{border-width:0px 1px 0px 0px;
+	}
+.CSSTableGenerator tr td:last-child
+	{border-width:0px 0px 1px 0px;
+	}
+.CSSTableGenerator tr:last-child td:last-child
+	{border-width:0px 0px 0px 0px;
+	}
+.CSSTableGenerator tr:first-child td
+	{background:-o-linear-gradient(bottom, #ffffaa 5%, #e8e800 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffaa), color-stop(1, #e8e800) );
+	background:-moz-linear-gradient( center top, #ffffaa 5%, #e8e800 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffaa", endColorstr="#e8e800");	background: -o-linear-gradient(top,#ffffaa,e8e800);
+	background-color:#ffffaa;
+	border:0px solid #bfbf00;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	color:#000000;
+	}
+.CSSTableGenerator tr:first-child:hover td
+	{background:-o-linear-gradient(bottom, #ffffaa 5%, #e8e800 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffaa), color-stop(1, #e8e800) );
+	background:-moz-linear-gradient( center top, #ffffaa 5%, #e8e800 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffaa", endColorstr="#e8e800");	background: -o-linear-gradient(top,#ffffaa,e8e800);
+	background-color:#ffffaa;
+	}
+.CSSTableGenerator tr:first-child td:first-child
+	{border-width:0px 0px 1px 0px;
+	}
+.CSSTableGenerator tr:first-child td:last-child
+	{	border-width:0px 0px 1px 1px;
+	}
+a:link{color: mediumblue;}
+a:visited{color: mediumblue;}
+a:hover{color: crimson; text-decoration:bold;}
+a:active {color:red}
+/*
+#navbar ul li
+{
+display: inline;
+
+}
+
+
+
+#navbar a
+{
+
+padding:8px;
+color:yellow;
+border: 4px solid olive; 
+background: green;
+border-style:outset;
+border-radius: 16px;
+text-decoration:none;
+
+
+}
+#navbar ul li a:hover, 
+#navbar a:active
+{
+border-style:outset;
+color: blue;
+background: #ffffcc;
+border-color: blue; 
+} */
+div#img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+body {
+	background-color:#ffffcc ;
+	margin:auto;
+}
+
+div#fixedheader {
+	position:fixed;
+	text-align: center;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#ffffcc;
+	background:#ffffcc;
+	padding:20px;
+}
+div#fixedfooter {
+	position:center;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#ffffcc;
+	background:#ffffcc;
+	padding:8px;
+}
+
+
+
